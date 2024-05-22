@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #1B3D95;
+  --primary-light: #2D60E2;
+  --box-shadow: 0px 4px 24px 0px #1B3D951A;
+  --box-primary-shadow: 0px 4px 8px 0px #1B3D95BF;
+  --b-radius: 8px;
+  --text-gray: #C2C2C2;
+}
+
+thead tr th {
+  background-color: #fff !important;
+  color: #C2C2C2 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+
+.ant-menu-item-selected {
+  background: #fff !important;
+  color: var(--primary) !important;
+}
+
+:where(.css-dev-only-do-not-override-16pw25h).ant-menu-light .ant-menu-item:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected),
+:where(.css-dev-only-do-not-override-16pw25h).ant-menu-light .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected) {
+  color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-16pw25h).ant-menu-light .ant-menu-submenu-selected>.ant-menu-submenu-title {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-column-sorters{
+  justify-content: start !important;
+}
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-column-sorters span{
+  flex: none !important;
+}
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-thead >tr>td,
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr>th, :where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr>td{
+  border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr.ant-table-row:hover>td, 
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr >td.ant-table-cell-row-hover {
+  background: transparent !important;
+}
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr{
+border-radius: 8px;
+z-index: 90 !important;
+}
+:where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr:hover {
+  box-shadow: var(--box-shadow) !important;
+}
