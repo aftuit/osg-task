@@ -44,7 +44,7 @@ main {
   width: 100vw;
   height: 100vh;
   padding: 24px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .main-body {
   padding-top: 24px;
