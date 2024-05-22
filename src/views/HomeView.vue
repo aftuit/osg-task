@@ -43,8 +43,8 @@ main {
   gap: 24px;
   width: 100vw;
   height: 100vh;
-  padding: 24px;
-  overflow: hidden;
+  padding: 22px;
+  overflow-x: hidden;
 }
 .main-body {
   padding-top: 24px;

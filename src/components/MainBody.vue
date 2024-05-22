@@ -264,6 +264,7 @@ function onChange(pagination, filters, sorter, extra) {
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
+  margin: 0;
 }
 .main-body-section {
   margin-top: 24px;
