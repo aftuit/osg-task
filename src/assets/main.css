@@ -54,9 +54,9 @@ thead tr th {
   background: transparent !important;
 }
 :where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr{
-border-radius: 8px;
-cursor: pointer;
-transition: all 0.3s linear;
+border-radius: 8px !important;
+cursor: pointer !important;
+transition: all 0.3s linear !important;
 z-index: 90 !important;
 }
 :where(.css-dev-only-do-not-override-16pw25h).ant-table-wrapper .ant-table-tbody >tr:hover {
