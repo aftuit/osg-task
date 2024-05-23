@@ -227,10 +227,10 @@ function isChildActive(item) {
   border-radius: var(--b-radius);
   box-shadow: var(--box-primary-shadow);
   color: #fff;
-  height: calc(100vh - 48px) !important;
   min-height: 696px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .logo {
   text-align: center;
