@@ -35,7 +35,7 @@ main {
 }
 .main-body {
   height: 100%;
-  min-height: 615px;
+  min-height: 616px;
 }
 .wrapper {
   display: flex;
