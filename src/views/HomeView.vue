@@ -6,7 +6,7 @@ import MainBody from "@/components/MainBody.vue";
 
 <template>
   <div class="wrapper">
-      <Sidebar />
+    <Sidebar />
     <main>
       <div class="main-content">
         <div class="main-header">
@@ -25,8 +25,7 @@ main {
   width: calc(100% - 292px);
 }
 .main-content,
-.main-body
-{
+.main-body {
   width: 100%;
 }
 .main-content {
